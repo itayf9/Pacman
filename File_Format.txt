@@ -1,0 +1,16 @@
+.steps File:
+- A sequence of characters representing pacman's moves (W, D, X, A and S), with no space between them, ending with '\n' .
+- For each ghost, a sequence of characters representing the ghost's moves (W, D, X, A and S), with no space between them, ending with '\n' .
+- A sequence of characters representing the fruit's moves (W, D, X, A and S), with no space between them, ending with '\n' .
+- A sequence of numbers representing the appearance and disappearance points of time for the fruit, with space between them, ending with '-1' .
+- A sequence of characters representing the fruit's values, with no space between them, ending with '\n' .
+- A sequence of numbers representing the fruit's starting positions (X and then Y), with space between them, ending with a space .
+
+.results File:
+- A sequence of the pacman's lose life points of times, with spaces between them
+- Following by '-1' (always being writen to the file)
+- Following by the pacman's finishing screen point of time
+
+Notes:
+- If the pacman loses all of it's three lives, the point of time when that happened,
+  is written to the file, both as the last lose live point, and as the finishing screen.
